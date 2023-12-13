@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Text <img src="./assets/arrow.png" alt=""/> Emojis</h1>
+      <div id="switch">
+        <div id="button-1"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></i>Encrypt Text</div>
+        <div id="button-2"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 019.9-1"></path></svg></i>Decrypt Text</div>
+      </div>
+      <div id="section1">
+        <h2>1. Type a message</h2>
+        <input type="text" placeholder=" Write something" id="textmsg"/>
+      </div>
+      <div id="section2">
+        <h2>2. Set a password</h2>
+        <input placeholder=" Eg 1 2 3 4" type="password" id="password" />
+      </div>
+      <div id="section3">
+        <h2>3. Encrypt Message</h2>
+        <div id="button-encrypt"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>Encrypt-Text</div>
+      </div>
+    <div id="section1-decry">
+        <h2>1. Paste encrypted emojis</h2>
+        <input type="text" placeholder="Paste the emojis" id="emojimsg"/>
+    </div>
+     <div id="section2-decry">
+        <h2>2. Type the password</h2>
+        <input type="password" name="" id="finalpassword" placeholder="Enter your password" />
+     </div>
+     <div id="section3-decry">
+        <h2>3. Decrypt Emojis</h2>
+        <div id="button-decrypt"><svg fill="none" height="20" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="20"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 019.9-1"></path></svg>Decrypt-Text</div>
+     </div>
+     <div id="result">
+    </div>
+      <h3>Made with ❤️ by Rajat</h3>
+    </div>
+     
+    <script src="script.js"></script>
+  </body>
+</html>
